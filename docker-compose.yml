@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    container_name: app
+    image: tutorial-jenkins-pipeline
+    restart: always
+    ports:
+      - "80:80"
+    environment:
+      - SERVICE_NAME="service1"
