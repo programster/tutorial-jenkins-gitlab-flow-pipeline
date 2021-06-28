@@ -24,18 +24,18 @@ That config file should have the following contents (a block per environment bra
 
 ```json
 {
-	"staging": {
-		"DOCKER_HOST": "my.staging-server.com",
-		"IMAGE_NAME": "my-docker-image",
-		"DOCKER_REGISTRY": "docker-registry.mydomain.com",
-		"SSH_USER": "programster"
-	},
-	"production": {
-		"DOCKER_HOST": "my.production-server.com",
-		"IMAGE_NAME": "my-docker-image",
-		"DOCKER_REGISTRY": "docker-registry.mydomain.com",
-		"SSH_USER": "programster"
-	}
+    "staging": {
+        "DOCKER_HOST": "my.staging-server.com",
+        "IMAGE_NAME": "my-docker-image",
+        "DOCKER_REGISTRY": "docker-registry.mydomain.com",
+        "SSH_USER": "programster"
+    },
+    "production": {
+        "DOCKER_HOST": "my.production-server.com",
+        "IMAGE_NAME": "my-docker-image",
+        "DOCKER_REGISTRY": "docker-registry.mydomain.com",
+        "SSH_USER": "programster"
+    }
 }
 ```
 
