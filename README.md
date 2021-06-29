@@ -3,5 +3,5 @@ A sample codebase for tutorial(s) on setting up Jenkins for CI/CD of a Gitlab Fl
 named environment branches for staging/production, and the credentials/configuration options need to be stored/provided
 by the Jenkins server.
 
-Details/instructions for this are in [my blog post](https://blog.programster.org/creating-a-basic-jenkins-pipeline-with-a-gitlab-repository).
+Details/instructions for this are in [my blog post](https://blog.programster.org/creating-a-basic-jenkins-pipeline).
 
